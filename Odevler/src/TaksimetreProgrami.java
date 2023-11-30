@@ -10,7 +10,4 @@ public class TaksimetreProgrami {
         System.out.println("Toplam tutar " + toplamTutar + "TL");
     }
 
-
-
-
 }
