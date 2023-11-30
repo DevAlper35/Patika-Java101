@@ -31,6 +31,5 @@ public class NotHesaplamaUygulamasi {
 
         String sonuc = ortalama >= 60 ? "Sınıfı geçti" : "Sınıfta kaldı";
         System.out.print(sonuc);
-
     }
 }
