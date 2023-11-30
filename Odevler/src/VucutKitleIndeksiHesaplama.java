@@ -11,6 +11,5 @@ public class VucutKitleIndeksiHesaplama {
 
         double vki = kilo / (boy*boy);
         System.out.println("Vücut Kitle İndeksiniz : " + vki);
-
     }
 }
