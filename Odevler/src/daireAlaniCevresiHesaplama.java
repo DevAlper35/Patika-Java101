@@ -14,5 +14,6 @@ public class daireAlaniCevresiHesaplama {
         System.out.println("Dairenizin Alanı : " + alan);
         System.out.println("Dairenizin Çevresi : " + cevre);
         System.out.println("Dairenizin Dilimi Alanı : " + dairedilimi);
+        
     }
 }
