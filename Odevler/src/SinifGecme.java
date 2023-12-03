@@ -4,7 +4,7 @@ public class SinifGecme {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Not ortalamanızı hesaplamak için notlarınızı girin\n");
-        System.out.println("!!! UYARI !!!\n girdiğiniz not 0-100 arasında değilse not 0 kalbul edilecektir \n ");
+        System.out.println("!!! UYARI !!!\n girdiğiniz not 0-100 arasında değilse not 0 kabul edilecektir \n ");
         System.out.print("Matematik: "); byte mat = input.nextByte();
         System.out.print("Fizik: "); byte fizik = input.nextByte();
         System.out.print("Türkçe: "); byte turkce = input.nextByte();
