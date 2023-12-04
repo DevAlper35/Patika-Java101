@@ -17,7 +17,7 @@ public class SinifGecme {
         kimya = 0 <= kimya && kimya <=100? kimya:0;
         muzik = 0 <= muzik && muzik <=100? muzik:0;
 
-        double ortalama = (mat + fizik + turkce + kimya + muzik) / 5;
+        double ortalama = (double) (mat + fizik + turkce + kimya + muzik) / 5;
         String durum = ortalama >=55?"geçtiniz":"geçemediniz";
         System.out.println("Not ortalamanız : " + ortalama + ". Sınıfı " + durum + ".");
 
