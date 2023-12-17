@@ -53,6 +53,7 @@ public class GelismisHesapMakinasi {
                 default:
                     System.out.println("Hatalı bir giriş yaptınız, tekrar deneyiniz.");
             }
+            sep();
         }
 
 
@@ -69,7 +70,7 @@ public class GelismisHesapMakinasi {
             result += number;
         }
         System.out.println("Sonuc : " + result);
-        empty();
+        //empty();
 
     }
 
@@ -90,7 +91,7 @@ public class GelismisHesapMakinasi {
         }
 
         System.out.println("Sonuc : " + result);
-        empty();
+        //empty();
     }
 
     static void times() {
@@ -112,7 +113,7 @@ public class GelismisHesapMakinasi {
         }
 
         System.out.println("Sonuc : " + result);
-        empty();
+        //empty();
     }
 
     static void divided() {
@@ -135,7 +136,7 @@ public class GelismisHesapMakinasi {
         }
 
         System.out.println("Sonuc : " + result);
-        empty();
+        //empty();
     }
 
     static void power() {
@@ -150,7 +151,7 @@ public class GelismisHesapMakinasi {
         }
 
         System.out.println("Sonuc : " + result);
-        empty();
+        //empty();
     }
 
     static void factorial() {
@@ -163,7 +164,7 @@ public class GelismisHesapMakinasi {
         }
 
         System.out.println("Sonuc : " + result);
-        empty();
+        //empty();
     }
     static void mod(){
         System.out.print("1. Sayiyi Giriniz :");
@@ -173,7 +174,7 @@ public class GelismisHesapMakinasi {
         number2=input.nextInt();
         double result=number1%number2;
         System.out.println("MOD :"+result);
-        empty();
+        //empty();
     }
     static void perimeterOfaRectangle(){
         System.out.print("Dikdorgenin uzun Kenari :");
@@ -182,7 +183,7 @@ public class GelismisHesapMakinasi {
         double shortEdge=input.nextDouble();
         double perimeter=2*(longEdge+shortEdge);
         System.out.println("Dikdorgenin  Cevresi :"+perimeter);
-        empty();
+        //empty();
     }
     static void areaOfaRectangle(){
         System.out.print("Dikdorgenin uzun Kenari :");
@@ -191,12 +192,13 @@ public class GelismisHesapMakinasi {
         double shortEdge=input.nextDouble();
         double area=longEdge*shortEdge;
         System.out.println("Dikdorgenin  Alani :"+area);
-        empty();
+        //empty();
 
     }
     static void sep(){
         System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
     }
+    /*
     static void empty(){
         System.out.println("Çıkmak için '0'a devam etmek için '1'e basın... ");
         int inputEmpty = input.nextInt();
@@ -206,6 +208,6 @@ public class GelismisHesapMakinasi {
 
 
     }
-
+*/
 }
 
